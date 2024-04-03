@@ -1,4 +1,4 @@
-# tothepub
+# pubwatch
 
 This project is to show the versitility of Microreact and data-flo. Here we aim to make a data dashboard, showing the locations of Pubs and Resturants around the UK. 
 
