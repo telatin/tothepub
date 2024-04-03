@@ -8,7 +8,7 @@ with open('input.json', 'r') as file:
     all_locations = [] 
     valid_businesses = ['Restaurant/Cafe/Canteen', 'Pub/bar/nightclub']
     fields = ['BusinessName', 'BusinessType', 'AddressLine1', 'AddressLine2', 'AddressLine3', 'PostCode', 'RatingValue', 'RatingDate', 'LocalAuthorityName', 'Latitude', 'Longitude'] 
-    for authority,xml  in data.items():
+    for authority, xml  in data.items():
         print(f"Authority: {authority}, XML: {xml}")
 
         response = requests.get(xml)
